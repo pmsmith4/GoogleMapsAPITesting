@@ -2,6 +2,9 @@
   "name": "googlemapsapitesting",
   "description": "An Aurelia client application.",
   "version": "0.1.0",
+  "scripts": {
+    "start": "au run"
+  },
   "repository": {
     "type": "???",
     "url": "???"
