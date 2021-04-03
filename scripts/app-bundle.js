@@ -127,7 +127,8 @@ define('map',["exports"], function (exports) {
     };
 
     Map.prototype.loadRobKML = function loadRobKML() {
-      var src = "https://raw.githubusercontent.com/pmsmith4/GoogleMapsAPITesting/main/bike-routes.kml";
+
+      var src = "https://raw.githubusercontent.com/pmsmith4/GoogleMapsAPITesting/main/KMLs/bike-routes.kml";
 
       var kmlLayer = new google.maps.KmlLayer(src, {
         suppressInfoWindows: true,
