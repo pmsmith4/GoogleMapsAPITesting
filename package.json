@@ -11,6 +11,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.11.3",
     "aurelia-animator-css": "^1.0.2",
     "aurelia-bootstrapper": "^2.1.1",
     "bluebird": "^3.4.1",
