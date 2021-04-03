@@ -38,11 +38,8 @@ attached()
 
   loadRobKML()
   {
-    //var src = 'https://papaspuds.com/map-simple/bike-routes.kml';
-    //var src = "https://docs.google.com/document/d/18sQz-nrFyrQb7KM4FdVyqt78FwJQ9klAJWFfgTw_GRU/export?format="
-    //var src = "https://www.dropbox.com/s/15uznvw3da7o6gx/westcampus.kml"
-   // var src = "https://drive.google.com//0/uc?id=1gYxE4TL_R1aKf2bW7s40wzyBKt3S044P&export=download"
-    var src = "https://raw.githubusercontent.com/pmsmith4/GoogleMapsAPITesting/main/bike-routes.kml"
+    
+    var src = "https://raw.githubusercontent.com/pmsmith4/GoogleMapsAPITesting/main/KMLs/bike-routes.kml"
     
 
     var kmlLayer = new google.maps.KmlLayer(src, {
