@@ -1,5 +1,5 @@
 {
-  "name": "google-maps-au",
+  "name": "GoogleMapsAPITesting",
   "type": "project:application",
   "bundler": {
     "id": "cli",

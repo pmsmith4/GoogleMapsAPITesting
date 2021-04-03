@@ -1,22 +1,16 @@
 {
-  "name": "google-maps-au",
+  "name": "googlemapsapitesting",
   "description": "An Aurelia client application.",
   "version": "0.1.0",
-  "scripts": {
-    "start": "au run"
-  },
-  "engines": {
-    "node": "12.14.1",
-    "npm": "6.13.4"
+  "repository": {
+    "type": "???",
+    "url": "???"
   },
   "license": "MIT",
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.11.3",
-    "aurelia-animator-css": "^1.0.2",
     "aurelia-bootstrapper": "^2.1.1",
+    "aurelia-animator-css": "^1.0.2",
     "bluebird": "^3.4.1",
-    "install": "^0.13.0",
-    "npm": "^7.8.0",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest"
   },
