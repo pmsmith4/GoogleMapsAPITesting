@@ -1,0 +1,49 @@
+<template>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>KML Click Capture Sample</title>
+    <style>
+      html, body {
+        height: 370px;
+        padding: 0;
+        margin: 0;
+        }
+      #map {
+       height: 300px;
+       width: 480px;
+       overflow: hidden;
+       float: left;
+       border: thin solid #333;
+       }
+      #capture {
+       height: 360px;
+       width: 480px;
+       overflow: hidden;
+       float: left;
+       background-color:#ECECFB;
+       border: thin solid #333;
+       border-left: none;
+       }
+    </style>
+  </head>
+  <body>
+   <table>
+      <tr>
+        <td>
+          <div id="map"></div>
+        </td>
+        <td>
+          <div id="capture"></div>  
+        </td>
+      </tr>
+      <tr>
+      <td>
+        <button type="button" id="loadGoogleKMLButton" click.trigger="loadGoogleKML()" style="margin-right:20px">Load Google KML</button>
+        <button type="button" id="loadRobKMLButton" click.trigger="loadRobKML()" style="margin-right:20px">Load Rob KML</button>
+      </td>  
+    </tr>
+   </table>
+  </body>
+
+</template>
